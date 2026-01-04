@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <h1>Daniel Ward</h1>
+      <nav>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M5 12H20"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M5 17H20"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            ></path>
+            <path
+              d="M5 7H20"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            ></path>
+          </g>
+        </svg>
+        <ul class="navlinks">
+          <li><a href=""></a>Home</li>
+          <li><a href=""></a>Services</li>
+          <li><a href=""></a>Pricing</li>
+          <li><a href=""></a>Work</li>
+          <li><a href=""></a>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Websites for you</h2>
+      <p>Helping you grow to your fullest</p>
+      <div class="cta-container">
+        <a href="./pages/Work.html" class="cta-secondary">About</a>
+        <i onclick="anchorScroll('services')" class="cta"> View services </i>
+      </div>
+    </section>
+    <section id="services">
+      <h3>Services</h3>
+      <div class="service-container">
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Design.svg" alt="" class="img-medium" />
+          </div>
+          <h4>Website design</h4>
+          <p>
+            Looking for a refresh, while maintaining the basic functionality of
+            your existing site
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Dev.svg" alt="" class="img-medium" />
+          </div>
+          <h4>Website development</h4>
+          <p>
+            Brand new sites, where both coding and design elements need
+            considering
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Rebuild.svg" alt="" class="img-medium" />
+          </div>
+          <h4>Website rebuild</h4>
+          <p>
+            Combination of design and development, where existing sites undergo
+            a complete overhaul
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Review.svg" alt="" class="img-medium" />
+          </div>
+          <h4>Website review</h4>
+          <p>
+            Analysis and feedback on your site, providing key areas for
+            improvement
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Content.svg " alt="" class="img-medium" />
+          </div>
+          <h4>Content management</h4>
+          <p>
+            Providing guidance on existing content when moving to a new site
+            structure
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="./assets/Maintenance.svg" alt="" class="img-medium" />
+          </div>
+          <h4>Hosting & maintenance</h4>
+          <p>
+            Managing the hosting and/or maintence on your website, ensuring
+            ongoing operations
+          </p>
+        </div>
+      </div>
+      <a href="/pages/Services.html" class="cta right">Learn more</a>
+    </section>
+    <script>
+      function anchorScroll(id) {
+        const anchor = document.getElementById(id);
+        anchor.scrollIntoView();
+      }
+    </script>
+  </body>
+</html>
